@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D5ACA38D109EE7EF4A73E30 /* UIImage+CoreGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C095872DA284C2E7472D9A4 /* UIImage+CoreGraphics.h */; };
+		161C4F9226B3A5AFA4A6D42F /* HRColorCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D9F9B6D7658E9DE7219328 /* HRColorCursor.m */; };
+		176AABB11A9BEEE7D53B558C /* HRColorPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC9842A9BEEAA82B50E346E /* HRColorPickerView.h */; };
+		2CAE00FFB0AA0DF3196663C1 /* HRBrightnessSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 982F80B9214E76E82AB48483 /* HRBrightnessSlider.h */; };
+		3E36B846005F0CDE986645F4 /* Pods-Color-Picker-for-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A84B1950D3A8D75E89F44 /* Pods-Color-Picker-for-iOS-dummy.m */; };
+		4B3598E44E02B1E0F851C424 /* HRBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = D122546F4CE67C2A890E0EBC /* HRBrightnessSlider.m */; };
+		5C3570BDF619259E15D9E426 /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 348B42E9C11625BC518716C6 /* HRColorPickerView.m */; };
+		665C33C4B03E42BF3F6126C6 /* HRColorInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC3CA0296EBE650FB19B2A6 /* HRColorInfoView.m */; };
+		67FAE0A79B39F6537D62BB60 /* HRColorMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8CA3A8A7B4558823AD6041 /* HRColorMapView.h */; };
+		6D47F155537EBC7A3E8FB47E /* UIImage+CoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA205C6823724BAA4D63A6A /* UIImage+CoreGraphics.m */; };
+		7609230F4F7C3B4A16EEDCEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D238BEFD8707D71CBA8287B /* Foundation.framework */; };
+		7D3E6DB09EC2B9AA9E8B8990 /* HRBrightnessCursor.h in Headers */ = {isa = PBXBuildFile; fileRef = DAE10EC982B6E2FF47BFFC64 /* HRBrightnessCursor.h */; };
+		8A0413FAB9D43109738951A4 /* HRColorCursor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BEBB8DBEEE79B58D7F7B9B3 /* HRColorCursor.h */; };
+		B123B7414E330F4B5FEFE46E /* HRBrightnessCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = E337C55150F1F4242B370837 /* HRBrightnessCursor.m */; };
+		BFF645DF87F952FFEBC4CC54 /* HRHSVColorUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 469D47811C559F532ED9C4F8 /* HRHSVColorUtil.h */; };
+		D9EE65E05F785A5A296CCEFF /* HRColorInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 98BB2FCB3BCC18893A7C926C /* HRColorInfoView.h */; };
+		EE569EA82236B0F4B0787193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D238BEFD8707D71CBA8287B /* Foundation.framework */; };
+		F09CD32A1A32CC308D8B728F /* HRHSVColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D366F4B013BD7CFFC9A83F8 /* HRHSVColorUtil.m */; };
+		FE3503B65D786C2A5DC9AC9C /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF815084E3C17E323B65617 /* Pods-dummy.m */; };
+		FED3DFE6C27E35E0F2761C90 /* HRColorMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 806FD8211BF907867153231A /* HRColorMapView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		709F4B56DAE86FAE5CB59DF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E599AEC50DA67394A9DB79E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1DD2A1CAD94AF87D563D21A;
+			remoteInfo = "Pods-Color-Picker-for-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0423AD58BE0B906A27348E39 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		0BA205C6823724BAA4D63A6A /* UIImage+CoreGraphics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CoreGraphics.m"; path = "ColorPicker/UIImage+CoreGraphics.m"; sourceTree = "<group>"; };
+		14D9F9B6D7658E9DE7219328 /* HRColorCursor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRColorCursor.m; path = ColorPicker/HRColorCursor.m; sourceTree = "<group>"; };
+		348B42E9C11625BC518716C6 /* HRColorPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRColorPickerView.m; path = ColorPicker/HRColorPickerView.m; sourceTree = "<group>"; };
+		3D366F4B013BD7CFFC9A83F8 /* HRHSVColorUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRHSVColorUtil.m; path = ColorPicker/HRHSVColorUtil.m; sourceTree = "<group>"; };
+		3F9B358C9F42F36E14D8C6AA /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		469D47811C559F532ED9C4F8 /* HRHSVColorUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRHSVColorUtil.h; path = ColorPicker/HRHSVColorUtil.h; sourceTree = "<group>"; };
+		49B050B230AE6534FC83A226 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D238BEFD8707D71CBA8287B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6AC3CA0296EBE650FB19B2A6 /* HRColorInfoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRColorInfoView.m; path = ColorPicker/HRColorInfoView.m; sourceTree = "<group>"; };
+		6BEBB8DBEEE79B58D7F7B9B3 /* HRColorCursor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRColorCursor.h; path = ColorPicker/HRColorCursor.h; sourceTree = "<group>"; };
+		6C095872DA284C2E7472D9A4 /* UIImage+CoreGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CoreGraphics.h"; path = "ColorPicker/UIImage+CoreGraphics.h"; sourceTree = "<group>"; };
+		79BE99AF2367B3364DFE953E /* Pods-Color-Picker-for-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Color-Picker-for-iOS-prefix.pch"; sourceTree = "<group>"; };
+		806FD8211BF907867153231A /* HRColorMapView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRColorMapView.m; path = ColorPicker/HRColorMapView.m; sourceTree = "<group>"; };
+		83C49BBDBCA7B703407145DE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		86C70FBDD000285BEE7B01E7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		8A2F2FB37610D206FA36A6F0 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		8B041588F9FE182B9F3BDE38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		8B1A84B1950D3A8D75E89F44 /* Pods-Color-Picker-for-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Color-Picker-for-iOS-dummy.m"; sourceTree = "<group>"; };
+		982F80B9214E76E82AB48483 /* HRBrightnessSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRBrightnessSlider.h; path = ColorPicker/HRBrightnessSlider.h; sourceTree = "<group>"; };
+		98BB2FCB3BCC18893A7C926C /* HRColorInfoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRColorInfoView.h; path = ColorPicker/HRColorInfoView.h; sourceTree = "<group>"; };
+		9CF815084E3C17E323B65617 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		A70DE8AFF689CA1F679CF044 /* Pods-Color-Picker-for-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Color-Picker-for-iOS.xcconfig"; sourceTree = "<group>"; };
+		AFC9842A9BEEAA82B50E346E /* HRColorPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRColorPickerView.h; path = ColorPicker/HRColorPickerView.h; sourceTree = "<group>"; };
+		B55D35C970E7339A2F436869 /* libPods-Color-Picker-for-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Color-Picker-for-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0B727542A6CB504305D616 /* Pods-Color-Picker-for-iOS-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Color-Picker-for-iOS-Private.xcconfig"; sourceTree = "<group>"; };
+		CE8CA3A8A7B4558823AD6041 /* HRColorMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRColorMapView.h; path = ColorPicker/HRColorMapView.h; sourceTree = "<group>"; };
+		D122546F4CE67C2A890E0EBC /* HRBrightnessSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRBrightnessSlider.m; path = ColorPicker/HRBrightnessSlider.m; sourceTree = "<group>"; };
+		DAE10EC982B6E2FF47BFFC64 /* HRBrightnessCursor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRBrightnessCursor.h; path = ColorPicker/HRBrightnessCursor.h; sourceTree = "<group>"; };
+		DB0EA6DBE5A55DECB7F2074D /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		E337C55150F1F4242B370837 /* HRBrightnessCursor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRBrightnessCursor.m; path = ColorPicker/HRBrightnessCursor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85E8CD92CDFBA4AE17FE7E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7609230F4F7C3B4A16EEDCEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8519D1DA2C3384708F86343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE569EA82236B0F4B0787193 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02CA225F5D7D6084F74C043B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72E13C1CF3A06192962F3586 /* Color-Picker-for-iOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		549A5E04219922798CF1DB51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3C264D2299BCCD4E50F705C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6021F93A741BA1201252605F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49B050B230AE6534FC83A226 /* libPods.a */,
+				B55D35C970E7339A2F436869 /* libPods-Color-Picker-for-iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72E13C1CF3A06192962F3586 /* Color-Picker-for-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DAE10EC982B6E2FF47BFFC64 /* HRBrightnessCursor.h */,
+				E337C55150F1F4242B370837 /* HRBrightnessCursor.m */,
+				982F80B9214E76E82AB48483 /* HRBrightnessSlider.h */,
+				D122546F4CE67C2A890E0EBC /* HRBrightnessSlider.m */,
+				6BEBB8DBEEE79B58D7F7B9B3 /* HRColorCursor.h */,
+				14D9F9B6D7658E9DE7219328 /* HRColorCursor.m */,
+				98BB2FCB3BCC18893A7C926C /* HRColorInfoView.h */,
+				6AC3CA0296EBE650FB19B2A6 /* HRColorInfoView.m */,
+				CE8CA3A8A7B4558823AD6041 /* HRColorMapView.h */,
+				806FD8211BF907867153231A /* HRColorMapView.m */,
+				AFC9842A9BEEAA82B50E346E /* HRColorPickerView.h */,
+				348B42E9C11625BC518716C6 /* HRColorPickerView.m */,
+				469D47811C559F532ED9C4F8 /* HRHSVColorUtil.h */,
+				3D366F4B013BD7CFFC9A83F8 /* HRHSVColorUtil.m */,
+				6C095872DA284C2E7472D9A4 /* UIImage+CoreGraphics.h */,
+				0BA205C6823724BAA4D63A6A /* UIImage+CoreGraphics.m */,
+				A154BE7543CD5B7C7741B675 /* Support Files */,
+			);
+			path = "Color-Picker-for-iOS";
+			sourceTree = "<group>";
+		};
+		9E6D36CC773AC4415B85BFE3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2F52F0B1C6B110F1B890B8F /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A024C39AE4CB5ECF69950EAF = {
+			isa = PBXGroup;
+			children = (
+				83C49BBDBCA7B703407145DE /* Podfile */,
+				549A5E04219922798CF1DB51 /* Frameworks */,
+				02CA225F5D7D6084F74C043B /* Pods */,
+				6021F93A741BA1201252605F /* Products */,
+				9E6D36CC773AC4415B85BFE3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A154BE7543CD5B7C7741B675 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A70DE8AFF689CA1F679CF044 /* Pods-Color-Picker-for-iOS.xcconfig */,
+				BE0B727542A6CB504305D616 /* Pods-Color-Picker-for-iOS-Private.xcconfig */,
+				8B1A84B1950D3A8D75E89F44 /* Pods-Color-Picker-for-iOS-dummy.m */,
+				79BE99AF2367B3364DFE953E /* Pods-Color-Picker-for-iOS-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Color-Picker-for-iOS";
+			sourceTree = "<group>";
+		};
+		B2F52F0B1C6B110F1B890B8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F9B358C9F42F36E14D8C6AA /* Pods-acknowledgements.markdown */,
+				DB0EA6DBE5A55DECB7F2074D /* Pods-acknowledgements.plist */,
+				9CF815084E3C17E323B65617 /* Pods-dummy.m */,
+				8A2F2FB37610D206FA36A6F0 /* Pods-environment.h */,
+				8B041588F9FE182B9F3BDE38 /* Pods-resources.sh */,
+				0423AD58BE0B906A27348E39 /* Pods.debug.xcconfig */,
+				86C70FBDD000285BEE7B01E7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		C3C264D2299BCCD4E50F705C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4D238BEFD8707D71CBA8287B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		72636D16C678134586720B09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3E6DB09EC2B9AA9E8B8990 /* HRBrightnessCursor.h in Headers */,
+				2CAE00FFB0AA0DF3196663C1 /* HRBrightnessSlider.h in Headers */,
+				8A0413FAB9D43109738951A4 /* HRColorCursor.h in Headers */,
+				D9EE65E05F785A5A296CCEFF /* HRColorInfoView.h in Headers */,
+				67FAE0A79B39F6537D62BB60 /* HRColorMapView.h in Headers */,
+				176AABB11A9BEEE7D53B558C /* HRColorPickerView.h in Headers */,
+				BFF645DF87F952FFEBC4CC54 /* HRHSVColorUtil.h in Headers */,
+				0D5ACA38D109EE7EF4A73E30 /* UIImage+CoreGraphics.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C355799D355C6A5AA27C6989 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B52F065F2FB9C03C98D175 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				E7D9BE91DDC5ADB61F1EA95B /* Sources */,
+				F8519D1DA2C3384708F86343 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1345FC9F1FA598B1395EC57 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 49B050B230AE6534FC83A226 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E1DD2A1CAD94AF87D563D21A /* Pods-Color-Picker-for-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3AF84687B3C4857126D2AD /* Build configuration list for PBXNativeTarget "Pods-Color-Picker-for-iOS" */;
+			buildPhases = (
+				2D843271DA242AC7A19D0094 /* Sources */,
+				85E8CD92CDFBA4AE17FE7E47 /* Frameworks */,
+				72636D16C678134586720B09 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Color-Picker-for-iOS";
+			productName = "Pods-Color-Picker-for-iOS";
+			productReference = B55D35C970E7339A2F436869 /* libPods-Color-Picker-for-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E599AEC50DA67394A9DB79E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 509616DDA4370AE6B8E576F4 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A024C39AE4CB5ECF69950EAF;
+			productRefGroup = 6021F93A741BA1201252605F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C355799D355C6A5AA27C6989 /* Pods */,
+				E1DD2A1CAD94AF87D563D21A /* Pods-Color-Picker-for-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D843271DA242AC7A19D0094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B123B7414E330F4B5FEFE46E /* HRBrightnessCursor.m in Sources */,
+				4B3598E44E02B1E0F851C424 /* HRBrightnessSlider.m in Sources */,
+				161C4F9226B3A5AFA4A6D42F /* HRColorCursor.m in Sources */,
+				665C33C4B03E42BF3F6126C6 /* HRColorInfoView.m in Sources */,
+				FED3DFE6C27E35E0F2761C90 /* HRColorMapView.m in Sources */,
+				5C3570BDF619259E15D9E426 /* HRColorPickerView.m in Sources */,
+				F09CD32A1A32CC308D8B728F /* HRHSVColorUtil.m in Sources */,
+				3E36B846005F0CDE986645F4 /* Pods-Color-Picker-for-iOS-dummy.m in Sources */,
+				6D47F155537EBC7A3E8FB47E /* UIImage+CoreGraphics.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D9BE91DDC5ADB61F1EA95B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3503B65D786C2A5DC9AC9C /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1345FC9F1FA598B1395EC57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Color-Picker-for-iOS";
+			target = E1DD2A1CAD94AF87D563D21A /* Pods-Color-Picker-for-iOS */;
+			targetProxy = 709F4B56DAE86FAE5CB59DF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5FCC4DDCA7E50C999C6419B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		841E8C7CAFC6F48AFB8E3B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0B727542A6CB504305D616 /* Pods-Color-Picker-for-iOS-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Color-Picker-for-iOS/Pods-Color-Picker-for-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8AA9664985B04D05D31786F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C70FBDD000285BEE7B01E7 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ACFD421BF9BDE5364E20FFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0423AD58BE0B906A27348E39 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D8A0755C5A7742B2D0C1F9AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0F43F34B5E037C4D781D575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0B727542A6CB504305D616 /* Pods-Color-Picker-for-iOS-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Color-Picker-for-iOS/Pods-Color-Picker-for-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B52F065F2FB9C03C98D175 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFD421BF9BDE5364E20FFA8 /* Debug */,
+				8AA9664985B04D05D31786F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		509616DDA4370AE6B8E576F4 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FCC4DDCA7E50C999C6419B1 /* Debug */,
+				D8A0755C5A7742B2D0C1F9AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3AF84687B3C4857126D2AD /* Build configuration list for PBXNativeTarget "Pods-Color-Picker-for-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841E8C7CAFC6F48AFB8E3B92 /* Debug */,
+				E0F43F34B5E037C4D781D575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E599AEC50DA67394A9DB79E9 /* Project object */;
+}

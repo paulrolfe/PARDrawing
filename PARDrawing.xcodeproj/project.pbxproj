@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0104311B30C24300923F1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0104301B30C24300923F1A /* main.m */; };
+		1C01043C1B30C24300923F1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C01043B1B30C24300923F1A /* Images.xcassets */; };
+		1C01043F1B30C24300923F1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C01043D1B30C24300923F1A /* LaunchScreen.xib */; };
+		1C01044B1B30C24300923F1A /* PARDrawingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C01044A1B30C24300923F1A /* PARDrawingTests.m */; };
+		1C0104791B330D9600923F1A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0104781B330D9600923F1A /* AssetsLibrary.framework */; };
+		1CB852821B335221008D8911 /* UIColor+colorFromDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB852681B335221008D8911 /* UIColor+colorFromDictionary.m */; };
+		1CB852831B335221008D8911 /* AddColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB8526B1B335221008D8911 /* AddColorsViewController.m */; };
+		1CB852841B335221008D8911 /* AddColorsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CB8526C1B335221008D8911 /* AddColorsViewController.xib */; };
+		1CB852851B335221008D8911 /* BrushPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB8526E1B335221008D8911 /* BrushPickerViewController.m */; };
+		1CB852861B335221008D8911 /* BrushPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CB8526F1B335221008D8911 /* BrushPickerViewController.xib */; };
+		1CB852871B335221008D8911 /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB852711B335221008D8911 /* ColorPickerViewController.m */; };
+		1CB852881B335221008D8911 /* ColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CB852721B335221008D8911 /* ColorPickerViewController.xib */; };
+		1CB852891B335221008D8911 /* DrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB852741B335221008D8911 /* DrawingViewController.m */; };
+		1CB8528A1B335221008D8911 /* DrawingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CB852751B335221008D8911 /* DrawingViewController.xib */; };
+		1CB8528B1B335221008D8911 /* PARDrawingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB852781B335221008D8911 /* PARDrawingObject.m */; };
+		1CB8528C1B335221008D8911 /* BrushCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB8527B1B335221008D8911 /* BrushCollectionViewCell.m */; };
+		1CB8528D1B335221008D8911 /* BrushCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CB8527C1B335221008D8911 /* BrushCollectionViewCell.xib */; };
+		1CB8528E1B335221008D8911 /* ColorCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB8527E1B335221008D8911 /* ColorCollectionViewCell.m */; };
+		1CB8528F1B335221008D8911 /* ColorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CB8527F1B335221008D8911 /* ColorCollectionViewCell.xib */; };
+		1CB852901B335221008D8911 /* PARDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB852811B335221008D8911 /* PARDrawView.m */; };
+		1CB852931B335232008D8911 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB852921B335232008D8911 /* AppDelegate.m */; };
+		E94BF96D05664983E787B695 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBDFDDF19988368D6B32131 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C0104451B30C24300923F1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C0104231B30C24300923F1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C01042A1B30C24300923F1A;
+			remoteInfo = PARDrawing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C01042B1B30C24300923F1A /* PARDrawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PARDrawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C01042F1B30C24300923F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C0104301B30C24300923F1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C01043B1B30C24300923F1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1C01043E1B30C24300923F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1C0104441B30C24300923F1A /* PARDrawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PARDrawingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0104491B30C24300923F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C01044A1B30C24300923F1A /* PARDrawingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PARDrawingTests.m; sourceTree = "<group>"; };
+		1C0104781B330D9600923F1A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		1CB852671B335221008D8911 /* UIColor+colorFromDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+colorFromDictionary.h"; sourceTree = "<group>"; };
+		1CB852681B335221008D8911 /* UIColor+colorFromDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+colorFromDictionary.m"; sourceTree = "<group>"; };
+		1CB8526A1B335221008D8911 /* AddColorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddColorsViewController.h; sourceTree = "<group>"; };
+		1CB8526B1B335221008D8911 /* AddColorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddColorsViewController.m; sourceTree = "<group>"; };
+		1CB8526C1B335221008D8911 /* AddColorsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddColorsViewController.xib; sourceTree = "<group>"; };
+		1CB8526D1B335221008D8911 /* BrushPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrushPickerViewController.h; sourceTree = "<group>"; };
+		1CB8526E1B335221008D8911 /* BrushPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrushPickerViewController.m; sourceTree = "<group>"; };
+		1CB8526F1B335221008D8911 /* BrushPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrushPickerViewController.xib; sourceTree = "<group>"; };
+		1CB852701B335221008D8911 /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewController.h; sourceTree = "<group>"; };
+		1CB852711B335221008D8911 /* ColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerViewController.m; sourceTree = "<group>"; };
+		1CB852721B335221008D8911 /* ColorPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorPickerViewController.xib; sourceTree = "<group>"; };
+		1CB852731B335221008D8911 /* DrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingViewController.h; sourceTree = "<group>"; };
+		1CB852741B335221008D8911 /* DrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingViewController.m; sourceTree = "<group>"; };
+		1CB852751B335221008D8911 /* DrawingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawingViewController.xib; sourceTree = "<group>"; };
+		1CB852771B335221008D8911 /* PARDrawingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PARDrawingObject.h; sourceTree = "<group>"; };
+		1CB852781B335221008D8911 /* PARDrawingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PARDrawingObject.m; sourceTree = "<group>"; };
+		1CB8527A1B335221008D8911 /* BrushCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrushCollectionViewCell.h; sourceTree = "<group>"; };
+		1CB8527B1B335221008D8911 /* BrushCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrushCollectionViewCell.m; sourceTree = "<group>"; };
+		1CB8527C1B335221008D8911 /* BrushCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrushCollectionViewCell.xib; sourceTree = "<group>"; };
+		1CB8527D1B335221008D8911 /* ColorCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorCollectionViewCell.h; sourceTree = "<group>"; };
+		1CB8527E1B335221008D8911 /* ColorCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorCollectionViewCell.m; sourceTree = "<group>"; };
+		1CB8527F1B335221008D8911 /* ColorCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorCollectionViewCell.xib; sourceTree = "<group>"; };
+		1CB852801B335221008D8911 /* PARDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PARDrawView.h; sourceTree = "<group>"; };
+		1CB852811B335221008D8911 /* PARDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PARDrawView.m; sourceTree = "<group>"; };
+		1CB852911B335232008D8911 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CB852921B335232008D8911 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EBDFDDF19988368D6B32131 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D92F10525EB5B4874686847 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C912D47A36F25DDC42C61203 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C0104281B30C24300923F1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0104791B330D9600923F1A /* AssetsLibrary.framework in Frameworks */,
+				E94BF96D05664983E787B695 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0104411B30C24300923F1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C0104221B30C24300923F1A = {
+			isa = PBXGroup;
+			children = (
+				1C01042D1B30C24300923F1A /* PARDrawing */,
+				1C0104471B30C24300923F1A /* PARDrawingTests */,
+				1C01042C1B30C24300923F1A /* Products */,
+				A509D3C03697FECB5589B6D4 /* Pods */,
+				4B036DE56B35E94F0FCD3B43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1C01042C1B30C24300923F1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C01042B1B30C24300923F1A /* PARDrawing.app */,
+				1C0104441B30C24300923F1A /* PARDrawingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C01042D1B30C24300923F1A /* PARDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				1CB852911B335232008D8911 /* AppDelegate.h */,
+				1CB852921B335232008D8911 /* AppDelegate.m */,
+				1CB852661B335221008D8911 /* Categories */,
+				1CB852691B335221008D8911 /* Controllers */,
+				1CB852761B335221008D8911 /* Models */,
+				1CB852791B335221008D8911 /* Views */,
+				1C01043B1B30C24300923F1A /* Images.xcassets */,
+				1C01043D1B30C24300923F1A /* LaunchScreen.xib */,
+				1C01042E1B30C24300923F1A /* Supporting Files */,
+				1C01047A1B330DAA00923F1A /* Frameworks */,
+			);
+			path = PARDrawing;
+			sourceTree = "<group>";
+		};
+		1C01042E1B30C24300923F1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C01042F1B30C24300923F1A /* Info.plist */,
+				1C0104301B30C24300923F1A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C0104471B30C24300923F1A /* PARDrawingTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C01044A1B30C24300923F1A /* PARDrawingTests.m */,
+				1C0104481B30C24300923F1A /* Supporting Files */,
+			);
+			path = PARDrawingTests;
+			sourceTree = "<group>";
+		};
+		1C0104481B30C24300923F1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C0104491B30C24300923F1A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C01047A1B330DAA00923F1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C0104781B330D9600923F1A /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CB852661B335221008D8911 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1CB852671B335221008D8911 /* UIColor+colorFromDictionary.h */,
+				1CB852681B335221008D8911 /* UIColor+colorFromDictionary.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		1CB852691B335221008D8911 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1CB8526A1B335221008D8911 /* AddColorsViewController.h */,
+				1CB8526B1B335221008D8911 /* AddColorsViewController.m */,
+				1CB8526C1B335221008D8911 /* AddColorsViewController.xib */,
+				1CB8526D1B335221008D8911 /* BrushPickerViewController.h */,
+				1CB8526E1B335221008D8911 /* BrushPickerViewController.m */,
+				1CB8526F1B335221008D8911 /* BrushPickerViewController.xib */,
+				1CB852701B335221008D8911 /* ColorPickerViewController.h */,
+				1CB852711B335221008D8911 /* ColorPickerViewController.m */,
+				1CB852721B335221008D8911 /* ColorPickerViewController.xib */,
+				1CB852731B335221008D8911 /* DrawingViewController.h */,
+				1CB852741B335221008D8911 /* DrawingViewController.m */,
+				1CB852751B335221008D8911 /* DrawingViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1CB852761B335221008D8911 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1CB852771B335221008D8911 /* PARDrawingObject.h */,
+				1CB852781B335221008D8911 /* PARDrawingObject.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1CB852791B335221008D8911 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1CB8527A1B335221008D8911 /* BrushCollectionViewCell.h */,
+				1CB8527B1B335221008D8911 /* BrushCollectionViewCell.m */,
+				1CB8527C1B335221008D8911 /* BrushCollectionViewCell.xib */,
+				1CB8527D1B335221008D8911 /* ColorCollectionViewCell.h */,
+				1CB8527E1B335221008D8911 /* ColorCollectionViewCell.m */,
+				1CB8527F1B335221008D8911 /* ColorCollectionViewCell.xib */,
+				1CB852801B335221008D8911 /* PARDrawView.h */,
+				1CB852811B335221008D8911 /* PARDrawView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4B036DE56B35E94F0FCD3B43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EBDFDDF19988368D6B32131 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A509D3C03697FECB5589B6D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D92F10525EB5B4874686847 /* Pods.debug.xcconfig */,
+				C912D47A36F25DDC42C61203 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C01042A1B30C24300923F1A /* PARDrawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C01044E1B30C24300923F1A /* Build configuration list for PBXNativeTarget "PARDrawing" */;
+			buildPhases = (
+				7CFB1954031E84B52972F4E0 /* Check Pods Manifest.lock */,
+				1C0104271B30C24300923F1A /* Sources */,
+				1C0104281B30C24300923F1A /* Frameworks */,
+				1C0104291B30C24300923F1A /* Resources */,
+				6A867961953FFE43E5BC18A5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PARDrawing;
+			productName = PARDrawing;
+			productReference = 1C01042B1B30C24300923F1A /* PARDrawing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C0104431B30C24300923F1A /* PARDrawingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C0104511B30C24300923F1A /* Build configuration list for PBXNativeTarget "PARDrawingTests" */;
+			buildPhases = (
+				1C0104401B30C24300923F1A /* Sources */,
+				1C0104411B30C24300923F1A /* Frameworks */,
+				1C0104421B30C24300923F1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C0104461B30C24300923F1A /* PBXTargetDependency */,
+			);
+			name = PARDrawingTests;
+			productName = PARDrawingTests;
+			productReference = 1C0104441B30C24300923F1A /* PARDrawingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C0104231B30C24300923F1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Paul Rolfe";
+				TargetAttributes = {
+					1C01042A1B30C24300923F1A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					1C0104431B30C24300923F1A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 1C01042A1B30C24300923F1A;
+					};
+				};
+			};
+			buildConfigurationList = 1C0104261B30C24300923F1A /* Build configuration list for PBXProject "PARDrawing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C0104221B30C24300923F1A;
+			productRefGroup = 1C01042C1B30C24300923F1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C01042A1B30C24300923F1A /* PARDrawing */,
+				1C0104431B30C24300923F1A /* PARDrawingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C0104291B30C24300923F1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C01043F1B30C24300923F1A /* LaunchScreen.xib in Resources */,
+				1CB8528A1B335221008D8911 /* DrawingViewController.xib in Resources */,
+				1CB8528F1B335221008D8911 /* ColorCollectionViewCell.xib in Resources */,
+				1C01043C1B30C24300923F1A /* Images.xcassets in Resources */,
+				1CB852881B335221008D8911 /* ColorPickerViewController.xib in Resources */,
+				1CB8528D1B335221008D8911 /* BrushCollectionViewCell.xib in Resources */,
+				1CB852841B335221008D8911 /* AddColorsViewController.xib in Resources */,
+				1CB852861B335221008D8911 /* BrushPickerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0104421B30C24300923F1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A867961953FFE43E5BC18A5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CFB1954031E84B52972F4E0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C0104271B30C24300923F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB852931B335232008D8911 /* AppDelegate.m in Sources */,
+				1CB852831B335221008D8911 /* AddColorsViewController.m in Sources */,
+				1CB852871B335221008D8911 /* ColorPickerViewController.m in Sources */,
+				1CB852901B335221008D8911 /* PARDrawView.m in Sources */,
+				1C0104311B30C24300923F1A /* main.m in Sources */,
+				1CB8528E1B335221008D8911 /* ColorCollectionViewCell.m in Sources */,
+				1CB8528B1B335221008D8911 /* PARDrawingObject.m in Sources */,
+				1CB852821B335221008D8911 /* UIColor+colorFromDictionary.m in Sources */,
+				1CB852851B335221008D8911 /* BrushPickerViewController.m in Sources */,
+				1CB852891B335221008D8911 /* DrawingViewController.m in Sources */,
+				1CB8528C1B335221008D8911 /* BrushCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C0104401B30C24300923F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C01044B1B30C24300923F1A /* PARDrawingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C0104461B30C24300923F1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C01042A1B30C24300923F1A /* PARDrawing */;
+			targetProxy = 1C0104451B30C24300923F1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C01043D1B30C24300923F1A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C01043E1B30C24300923F1A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C01044C1B30C24300923F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C01044D1B30C24300923F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C01044F1B30C24300923F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D92F10525EB5B4874686847 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PARDrawing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C0104501B30C24300923F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C912D47A36F25DDC42C61203 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PARDrawing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1C0104521B30C24300923F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PARDrawingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PARDrawing.app/PARDrawing";
+			};
+			name = Debug;
+		};
+		1C0104531B30C24300923F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PARDrawingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PARDrawing.app/PARDrawing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C0104261B30C24300923F1A /* Build configuration list for PBXProject "PARDrawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C01044C1B30C24300923F1A /* Debug */,
+				1C01044D1B30C24300923F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C01044E1B30C24300923F1A /* Build configuration list for PBXNativeTarget "PARDrawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C01044F1B30C24300923F1A /* Debug */,
+				1C0104501B30C24300923F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C0104511B30C24300923F1A /* Build configuration list for PBXNativeTarget "PARDrawingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C0104521B30C24300923F1A /* Debug */,
+				1C0104531B30C24300923F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C0104231B30C24300923F1A /* Project object */;
+}

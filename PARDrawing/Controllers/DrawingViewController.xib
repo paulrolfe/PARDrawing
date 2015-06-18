@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D2134" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DrawingViewController">
+            <connections>
+                <outlet property="brushButton" destination="G9K-Mc-hni" id="Zix-AD-9YR"/>
+                <outlet property="clearButton" destination="7VK-oR-Xcs" id="JNH-Lj-BbS"/>
+                <outlet property="colorButton" destination="8TV-Pv-xa3" id="VsR-IW-IaE"/>
+                <outlet property="drawView" destination="N52-RT-Wit" id="uXh-1d-G5w"/>
+                <outlet property="eraseButton" destination="uhl-kH-7sb" id="ORX-UD-5JT"/>
+                <outlet property="saveButton" destination="Zkb-Gt-Lep" id="qQY-Ph-ZyR"/>
+                <outlet property="view" destination="iN0-l3-epB" id="i1j-ws-ZKa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N52-RT-Wit" customClass="PARDrawView">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="516"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8TV-Pv-xa3">
+                    <rect key="frame" x="20" y="538" width="40" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Gr5-LX-nua"/>
+                        <constraint firstAttribute="width" constant="40" id="NqR-aj-gX0"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="colorButtonTouched:" destination="-1" eventType="touchUpInside" id="gaF-5b-wTA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9K-Mc-hni">
+                    <rect key="frame" x="80" y="538" width="40" height="40"/>
+                    <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="kIa-HI-d3M"/>
+                        <constraint firstAttribute="width" constant="40" id="uxt-cS-kQU"/>
+                    </constraints>
+                    <state key="normal" image="paint_brush_dots"/>
+                    <connections>
+                        <action selector="brushButtonTapped:" destination="-1" eventType="touchUpInside" id="on1-ze-EN2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7VK-oR-Xcs">
+                    <rect key="frame" x="540" y="538" width="40" height="40"/>
+                    <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="Wuj-9a-C6L"/>
+                        <constraint firstAttribute="height" constant="40" id="nvy-2W-czC"/>
+                    </constraints>
+                    <state key="normal" image="xButton"/>
+                    <connections>
+                        <action selector="clearTouched:" destination="-1" eventType="touchUpInside" id="XSZ-vo-wtQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zkb-Gt-Lep">
+                    <rect key="frame" x="480" y="538" width="40" height="40"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="5c6-34-z8f"/>
+                        <constraint firstAttribute="height" constant="40" id="Xht-3K-6LK"/>
+                    </constraints>
+                    <state key="normal" image="saveButton"/>
+                    <connections>
+                        <action selector="saveTouched:" destination="-1" eventType="touchUpInside" id="3Ew-JG-3xP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhl-kH-7sb">
+                    <rect key="frame" x="140" y="538" width="40" height="40"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="eba-sM-2EA"/>
+                        <constraint firstAttribute="width" constant="40" id="fTE-tz-F1K"/>
+                    </constraints>
+                    <state key="normal" image="erase"/>
+                    <connections>
+                        <action selector="eraseButtonTapped:" destination="-1" eventType="touchUpInside" id="Wk7-Vu-Hin"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.43529411764705883" green="0.44313725490196076" blue="0.47450980392156861" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="7VK-oR-Xcs" firstAttribute="leading" secondItem="Zkb-Gt-Lep" secondAttribute="trailing" constant="20" id="2OT-Ft-g4i"/>
+                <constraint firstItem="G9K-Mc-hni" firstAttribute="top" secondItem="N52-RT-Wit" secondAttribute="bottom" id="7lx-sG-OjK"/>
+                <constraint firstAttribute="trailing" secondItem="N52-RT-Wit" secondAttribute="trailing" id="K9n-Mi-uud"/>
+                <constraint firstItem="G9K-Mc-hni" firstAttribute="top" secondItem="N52-RT-Wit" secondAttribute="bottom" constant="22" id="dui-Oa-knq"/>
+                <constraint firstAttribute="bottom" secondItem="8TV-Pv-xa3" secondAttribute="bottom" constant="22" id="eHJ-Bh-w4S"/>
+                <constraint firstItem="G9K-Mc-hni" firstAttribute="centerY" secondItem="8TV-Pv-xa3" secondAttribute="centerY" id="hNQ-qr-6pB"/>
+                <constraint firstItem="G9K-Mc-hni" firstAttribute="centerY" secondItem="uhl-kH-7sb" secondAttribute="centerY" id="jep-s6-4hf"/>
+                <constraint firstItem="Zkb-Gt-Lep" firstAttribute="centerY" secondItem="7VK-oR-Xcs" secondAttribute="centerY" id="nnA-pf-5Nt"/>
+                <constraint firstItem="8TV-Pv-xa3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="o6j-PZ-Hwk"/>
+                <constraint firstAttribute="trailing" secondItem="7VK-oR-Xcs" secondAttribute="trailing" constant="20" id="oTV-2z-OEm"/>
+                <constraint firstItem="G9K-Mc-hni" firstAttribute="centerY" secondItem="7VK-oR-Xcs" secondAttribute="centerY" id="seZ-v8-qJE"/>
+                <constraint firstItem="uhl-kH-7sb" firstAttribute="leading" secondItem="G9K-Mc-hni" secondAttribute="trailing" constant="20" id="taM-vn-UA5"/>
+                <constraint firstItem="N52-RT-Wit" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="uUb-qJ-h3H"/>
+                <constraint firstItem="N52-RT-Wit" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wAg-Sx-1Y0"/>
+                <constraint firstItem="G9K-Mc-hni" firstAttribute="leading" secondItem="8TV-Pv-xa3" secondAttribute="trailing" constant="20" id="wDI-fO-pWT"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="7lx-sG-OjK"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="erase" width="32" height="32"/>
+        <image name="paint_brush_dots" width="64" height="64"/>
+        <image name="saveButton" width="32" height="32"/>
+        <image name="xButton" width="32" height="32"/>
+    </resources>
+</document>
